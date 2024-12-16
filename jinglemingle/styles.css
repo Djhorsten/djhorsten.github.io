@@ -1,24 +1,47 @@
 body {
-    background: darkgreen;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: darkgreen;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: lightcoral;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: block;
+    vertical-align: bottom;
 }
 
 h1 {
-    color: red;
     text-align: center;
 }
 
 p {
-    color: red;
     text-align: center;
 }
 
-.numba1 {
-    color: red;
-    text-align: center;
+.interest-input {
+    margin: 10px 0;
 }
-
-.numba2 {
-    color: red;
-    text-align: center;
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.matches {
+    margin-top: 20px;
 }
