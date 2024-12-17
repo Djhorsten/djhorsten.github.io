@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendzy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Friendzy's Christmas Interest Matcher!</h1>
+
+<div class="form-container">
+    <h2>Enter Your Details To Match To Someone To Spend Christmas Together With!</h2>
+    <form id="user-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="age">Enter Your Age:</label>
+        <input type="number" id="age" required min="16" max="22">
+
+        <h3>Select Your Interests Here:</h3>
+        <label><input type="checkbox" name="interests" value="music"> Music</label><br>
+        <label><input type="checkbox" name="interests" value="sports"> Sports</label><br>
+        <label><input type="checkbox" name="interests" value="travel"> Travel</label><br>
+        <label><input type="checkbox" name="interests" value="reading"> Reading</label><br>
+        <label><input type="checkbox" name="interests" value="cooking"> Cooking</label><br>
+        <label><input type="checkbox" name="interests" value="gaming"> Gaming</label><br>
+        <label><input type="checkbox" name="interests" value="art"> Art</label><br>
+        <label><input type="checkbox" name="interests" value="maths"> Maths</label><br>
+        <label><input type="checkbox" name="interests" value="history"> History</label><br>
+        <label><input type="checkbox" name="interests" value="geography"> Geography</label><br>
+        <label><input type="checkbox" name="interests" value="biology"> Biology</label><br>
+        <label><input type="checkbox" name="interests" value="photography"> Photography</label><br>
+        <label><input type="checkbox" name="interests" value="writing"> Writing</label><br>
+        <label><input type="checkbox" name="interests" value="gardening"> Gardening</label><br>
+        <label><input type="checkbox" name="interests" value="acting"> Acting</label><br>
+
+        <h3>Desired Age Range:</h3>
+        <label for="min-age">Min Age:</label>
+        <input type="number" id="min-age" min="16" max="22" required>
+        <label for="max-age">Max Age:</label>
+        <input type="number" id="max-age" min="16" max="22" required>
+
+        <button type="button" onclick="findMatches()">Find Matches!</button>
+    </form>
+</div>
+
+<div id="matches" class="matches-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
