@@ -1,10 +1,16 @@
 // Sample user data (in a real application, this would be stored in a database)
 const users = [
-    { name: "Alice", age: 18, interests: ["music", "travel"], phone: "123-456-7890" },
-    { name: "Bob", age: 19, interests: ["sports", "music"], phone: "234-567-8901" },
-    { name: "Charlie", age: 22, interests: ["reading", "travel"], phone: "345-678-9012" },
-    { name: "David", age: 21, interests: ["sports", "reading"], phone: "456-789-0123" },
-    { name: "Eve", age: 20, interests: ["music", "sports"], phone: "567-890-1234" }
+    { name: "Alice", age: 18, interests: ["music", "travel"], phone: "+31612345678" },
+    { name: "Bob", age: 19, interests: ["sports", "gardening"], phone: "+31623456789" },
+    { name: "Charlie", age: 22, interests: ["writing", "acting"], phone: "+31634567890" },
+    { name: "David", age: 19, interests: ["photography", "maths"], phone: "+31645678901" },
+    { name: "Eve", age: 20, interests: ["music", "sports"], phone: "+31656789012" },
+    { name: "Johan", age: 21, interests: ["biology", "acting", "sports"], phone: "+31667890123" },
+    { name: "Gabriel", age: 18, interests: ["geography", "history", "music", "gaming"], phone: "+31678901234" },
+    { name: "Falicia", age: 19, interests: ["travel", "geography", "art", "writing"], phone: "+31689012345" },
+    { name: "Sanny", age: 17, interests: ["gaming", "music", "art", "travel"], phone: "+3169012345678" },
+    { name: "Ami", age: 16, interests: ["reading", "art", "gaming", "writing", "music"], phone: "+3160123456789" },
+    { name: "Maud", age: 16, interests: ["music", "sports", "art", "gaming"], phone: "+3169643369329" },
 ];
 
 function findMatches() {

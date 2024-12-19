@@ -1,20 +1,54 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-color: antiquewhite;
+
+}
+
+.snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://media.istockphoto.com/id/1422272499/vector/winter-background-of-snowflakes-fluttered-by-the-wind-on-a-protein-background-white-dust-png.jpg?s=612x612&w=0&k=20&c=Pf_HuFiYxfkBBIRth52wFpf_v7BZMyb-u0czupq5sEQ=") repeat;
+    opacity: 0.15;
+    animation: snowfall 15s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes snowfall {
+    0% {background-position: 0 0; }
+    100% {background-position: 1000px 1000px; }
 }
 
 h1 {
     text-align: center;
+    color: red;
+    font-weight: bold;
 }
 
 h2 {
     text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    color: red;
+    font-weight: bold;
 }
 
 .form-container {
-    background: white;
+    background: palevioletred;
+    border: 3px solid palegreen;
+    justify-content: center;
     padding: 20px;
+    display: block;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -26,7 +60,7 @@ h2 {
 }
 
 .user {
-    background: #e7f3fe;
+    background: palevioletred;
     border: 1px solid #b3d7ff;
     border-radius: 5px;
     padding: 10px;
@@ -34,14 +68,31 @@ h2 {
 }
 
 button {
-    background-color: #007bff;
+    background-color: mediumslateblue;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    horiz-align: center;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: darkslateblue;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.DAR {
+    text-align: center;
 }
