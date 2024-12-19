@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: antiquewhite;
+    background-color: darkred;
 
 }
 
@@ -25,26 +25,29 @@ body {
 
 h1 {
     text-align: center;
-    color: red;
     font-weight: bold;
+    color: white;
 }
 
 h2 {
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 h3 {
     text-align: center;
+    color: white;
 }
 
 label {
-    color: red;
     font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px 2px mediumslateblue;
 }
 
 .form-container {
-    background: palevioletred;
+    background: darkgreen;
     border: 3px solid palegreen;
     justify-content: center;
     padding: 20px;
@@ -57,11 +60,12 @@ label {
 
 .matches-container {
     margin-top: 20px;
+    color: white
 }
 
 .user {
-    background: palevioletred;
-    border: 1px solid #b3d7ff;
+    background: darkgreen;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
